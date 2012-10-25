@@ -1,0 +1,20 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#0d1926:#ff9233:#33ff92:#a0ff33:#9233ff:#ff33a0:#33a0ff:#bac7d4:#2b3845:#ffc999:#99ffc9:#cfff99:#c999ff:#ff99cf:#99cfff:#d9e5f2"
+    cursor_shape = underline
+    use_system_font = False
+    foreground_color = "#d9e6f2"
+    show_titlebar = False
+    font = Terminus 8
+    background_color = "#2b3845"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
